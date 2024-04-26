@@ -61,8 +61,6 @@ func changeDisplay(display string, id int, allIds []int){
 	if(err != nil){
 		log.Fatal(err)
 	}
-
-	fmt.Println(nextIndex)
 }
 
 func getNextIndex(id int, allIds []int)int{
